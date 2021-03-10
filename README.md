@@ -1,1 +1,5 @@
-my-conky-config-files
+My dotfiles for:
+
+- conky
+- xfce panel
+
