@@ -1,0 +1,13 @@
+starship is a cross-shell prompt 
+
+- installation
+
+sudo snap install startship
+
+- config
+
+go to .bashrc file and paste:
+
+eval "$(starship init bash)"
+
+at the end of the file
