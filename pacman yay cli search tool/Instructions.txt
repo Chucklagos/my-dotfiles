@@ -1,0 +1,15 @@
+ 1. place the two .sh scripts where you want and remember that path
+
+ 2. open your bashrc file and add this two alias:
+
+alias rfind="cd /$HOME/Documentos/ && ./buscarRepo.sh"
+alias yfind="cd /$HOME/Documentos/ && ./buscarAur.sh"
+
+the "/$HOME/Documentos/" is the path where you have your files, change this to your path.
+
+How to use:
+
+Just open your terminal and type "rfind" or "yfind" and hit enter to use the search tool.
+
+** note: you need to install fzf **
+
