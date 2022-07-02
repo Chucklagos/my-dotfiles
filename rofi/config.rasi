@@ -1,0 +1,25 @@
+configuration {
+ modi: "window,drun,ssh,combi,filebrowser";
+ font: "hack 11";
+ combi-modi: "window,drun,ssh";
+ }
+
+//@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+entry {
+    placeholder: "Type here";
+    cursor: pointer;
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-icon, element-text ];
+  spacing: 10px;
+}
+
+element-icon {
+    size: 35px;
+    vertical-align: 0.5;
+}
