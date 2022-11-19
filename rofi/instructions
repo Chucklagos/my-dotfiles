@@ -1,0 +1,7 @@
+Instructions
+
+Rofi config file go here:
+directory: ~/.config/rofi/config.rasi
+
+Themes go here:
+directory: ~/.local/share/rofi/themes

@@ -11,3 +11,7 @@ go to .bashrc file and paste:
 eval "$(starship init bash)"
 
 at the end of the file
+
+
+
+https://starship.rs/
